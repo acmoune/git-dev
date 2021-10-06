@@ -10,4 +10,8 @@ export class Calculator {
   public multiply(left: number, right: number): number {
     return left * right;
   }
+
+  public divide(left: number, right: number): number {
+    return left / right;
+  }
 }
